@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <footer className='bg-yellow-100 w-[100vw] h-auto flex justify-center gap-5.5' >
+    <footer className='bg-yellow-100 w-[100vw] h-full flex justify-center gap-5.5' >
       <p>Desarrollado por <strong>Michael Conde</strong></p>
     <Navbar>
       <ul className='flex gap-2'>
