@@ -11,6 +11,7 @@ import { Skills } from "./Pages/Skills/Skills"
 import { ProfesionalExperience } from "./Pages/ProfesionalExperience/ProfesionalExperience"
 
 
+
 import { Footer } from "./layout/Footer/Footer"
 
 import { Routes, Route } from "react-router-dom"
@@ -26,6 +27,7 @@ export const App = () => {
       <Route path="/SocialAbilities" element={<SocialAbilities />} />
       <Route path="/Skills" element={<Skills />} />
       <Route path="/ProfesionalExperience" element={<ProfesionalExperience />} />
+      <Route path="/https://github.com/MichaelConde/Cards-Dom/tree/main"  />
       </Routes>
       <Footer />
       </>
