@@ -20,6 +20,7 @@ import { Routes, Route } from "react-router-dom"
 export const App = () => {
   return (
     <>
+
       <Header />
       <Routes>
       <Route path="/" element={<Home />} />
@@ -30,6 +31,7 @@ export const App = () => {
       <Route path="/https://github.com/MichaelConde/Cards-Dom/tree/main"  />
       </Routes>
       <Footer />
+      
       </>
   )
 }
