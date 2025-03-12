@@ -7,7 +7,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
-    <footer className="bg-yellow-100 w-full py-6 px-4 flex flex-col items-center gap-6 sm:flex-row sm:justify-between sm:px-10">
+    <footer className="bg-zinc-100 w-full py-6 px-4 flex flex-col items-center gap-6 sm:flex-row sm:justify-between sm:px-10">
       <p className="text-center sm:text-left">
         Desarrollado por <strong>Michael Conde</strong>
       </p>

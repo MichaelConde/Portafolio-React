@@ -2,11 +2,11 @@ import React from 'react';
 import { ImgComponent } from '../../assets/ImgComponent/ImgComponent';
 import img from '../../assets/ImgComponent/images.jpg';
 import { ItemText } from '../../components/Text/ItemText';
-
+import { Main } from '../../layout/Main/Main';
 export const Home = () => {
   return (
-    <>
-      <div className="w-full h-screen flex justify-center items-center flex-col md:flex-row md:justify-between md:items-center px-4 md:px-8 lg:px-10">
+    
+      <Main style="w-full h-screen flex justify-center items-center flex-col md:flex-row md:justify-between md:items-center px-4 md:px-8 lg:px-10">
 
         <div className="w-full md:w-1/2 text-center md:text-left p-4">
           <h1 className="text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6">
@@ -25,7 +25,7 @@ export const Home = () => {
             style="w-full max-w-md h-auto p-4 md:p-10 ml-0 md:ml-10" 
           />
         </div>
-      </div>
-    </>
+      </Main>
+    
   );
 }

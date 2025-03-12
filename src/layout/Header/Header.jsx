@@ -3,12 +3,12 @@ import { Navbar } from '../Navbar/Navbar';
 import { ItemNavbar } from '../../components/ItemNavbar/ItemNavbar';
 import { ImgComponent } from '../../assets/ImgComponent/ImgComponent';
 import img from '../../assets/ImgComponent/Proyectonuevo-Photoroom.png';
-
+import menu from '../../assets/ImgComponent/Menu.png';
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className=" top-0 left-0 z-50 w-full h-[5rem] bg-teal-600 flex items-center justify-between px-6 py-4 text-white shadow-md overflow-hidden">
+    <header className=" top-0 left-0 z-50 w-full h-[5rem] bg-zinc-100 flex items-center justify-between px-6 py-4 text-black shadow-md ">
       <ImgComponent component={img} style="h-20 sm:h-32" />
 
       {/* Botón hamburguesa para pantallas pequeñas */}
@@ -17,7 +17,7 @@ export const Header = () => {
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Abrir menú"
       >
-        ☰
+          <ImgComponent component={menu} style="h-12 sm:h-12" />
       </button>
 
       {/* Navbar */}

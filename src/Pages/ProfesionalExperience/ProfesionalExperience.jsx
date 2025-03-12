@@ -3,11 +3,11 @@ import { ItemText } from '../../components/Text/ItemText';
 import ItemTarjet from '../../components/Tarjet/ItemTarjet';
 import { ItemNavbar } from '../../components/ItemNavbar/ItemNavbar';
 import poyect1 from '../../assets/ImgComponent/Git1.png';
-
+import { Main } from '../../layout/Main/Main';
 export const ProfesionalExperience = () => {
   return (
-    <>
-      <div className="h-full flex flex-col items-center px-4 sm:px-6 md:px-8">
+    
+      <Main style="h-full flex flex-col items-center px-4 sm:px-6 md:px-8">
         <ItemText
           style="text-center text-[30px] mt-20"
           content="Mi experiencia"
@@ -72,7 +72,6 @@ export const ProfesionalExperience = () => {
             }
           />
         </div>
-      </div>
-    </>
+      </Main>
   );
 };
