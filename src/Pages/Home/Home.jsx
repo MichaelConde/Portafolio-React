@@ -15,7 +15,7 @@ export const Home = () => {
 
           <ItemText 
             style="text-sm md:text-base lg:text-lg" 
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eos quas culpa sequi iste ullam aut explicabo fugiat iusto similique dolorum, numquam, consectetur est neque dicta. Placeat eos voluptas doloremque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio iusto fugiat a error saepe nemo odio dignissimos molestiae quis earum reprehenderit iure quam fuga ex itaque accusantium placeat corporis." 
+            content="Aprendiz SENA con conocimientos en desarrollo web y programación, con un enfoque en tecnologías como JavaScript, Java, HTML, CSS, React y Python. Posee una comprensión sólida de bases de datos relacionales, con capacidad para diseñar, consultar y administrar datos. Con una mentalidad proactiva y habilidades técnicas en constante crecimiento, está preparado para enfrentar desafíos en el desarrollo de aplicaciones web y soluciones de software, buscando siempre mejorar y ampliar su experiencia." 
           />
         </div>
 

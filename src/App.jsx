@@ -9,7 +9,7 @@ import { SocialAbilities } from "./Pages/SocialAbilities/SocialAbilities"
 import { Skills } from "./Pages/Skills/Skills"
 
 import { ProfesionalExperience } from "./Pages/ProfesionalExperience/ProfesionalExperience"
-
+import { EnglishLevel } from "./Pages/EnglishLevel/EnglishLevel"
 
 
 import { Footer } from "./layout/Footer/Footer"
@@ -28,7 +28,11 @@ export const App = () => {
       <Route path="/SocialAbilities" element={<SocialAbilities />} />
       <Route path="/Skills" element={<Skills />} />
       <Route path="/ProfesionalExperience" element={<ProfesionalExperience />} />
-      <Route path="/https://github.com/MichaelConde/Cards-Dom/tree/main"  />
+      <Route path="/EnglishLevel" element={<EnglishLevel />} />
+      <Route path="/https://michaelconde.github.io/Api-Rick-and-Morty-JS/"  />
+      <Route path="/https://michaelconde.github.io/Proyecto-Atlas/"  />
+      <Route path="/https://michaelconde.github.io/Reproductor-js/"  />
+      <Route path="/https://github.com/MichaelConde/Encapsulaci-n-Java"  />
       </Routes>
       <Footer />
       

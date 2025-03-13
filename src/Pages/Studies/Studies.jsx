@@ -3,6 +3,8 @@
   import { ImgComponent } from '../../assets/ImgComponent/ImgComponent';
   import img from '../../assets/ImgComponent/Colegio2.png';
   import { Main } from '../../layout/Main/Main';
+  import { PiStudentBold } from "react-icons/pi";
+  import { FaLaptopCode } from "react-icons/fa";
   export const Studies = () => {
     return (
       
@@ -13,8 +15,8 @@
             <ImgComponent component={img} style="w-full h-auto rounded-lg" />
             
             <ul className='flex flex-col text-[30px] '>
-              <li className='mb-15 mt-10'>Bachillerato: Institucion Educativa Marcelino Champagnat</li>
-              <li>Tecnico en Programacion de software: Institucion Educativa Marcelino Champagnat</li>
+              <li className='mb-15 mt-10'>  <PiStudentBold />Bachillerato: Institucion Educativa Marcelino Champagnat</li>
+              <li> <FaLaptopCode /> Tecnico en Programacion de software: Institucion Educativa Marcelino Champagnat</li>
             </ul>
           </div>
         </Main>
