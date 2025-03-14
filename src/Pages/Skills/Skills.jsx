@@ -7,9 +7,9 @@ import img from '../../assets/ImgComponent/html.png';
 import img2 from '../../assets/ImgComponent/CSS.png';
 import img3 from '../../assets/ImgComponent/JavaScript-Logo.png';
 import img4 from '../../assets/ImgComponent/java-logo-1.png';
-import img5 from '../../assets/ImgComponent/sql.png';
+import img5 from '../../assets/ImgComponent/sql-Photoroom.png';
 import img6 from '../../assets/ImgComponent/Git_icon.svg.png';
-import img7 from '../../assets/ImgComponent/scum2.jpg';
+import img7 from '../../assets/ImgComponent/scum2-Photoroom.png';
 import img8 from '../../assets/ImgComponent/Visual.png';
 
 export const Skills = () => {

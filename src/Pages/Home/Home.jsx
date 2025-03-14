@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImgComponent } from '../../assets/ImgComponent/ImgComponent';
-import img from '../../assets/ImgComponent/images.jpg';
+import img from '../../assets/ImgComponent/Foto.jpeg';
 import { ItemText } from '../../components/Text/ItemText';
 import { Main } from '../../layout/Main/Main';
 export const Home = () => {
